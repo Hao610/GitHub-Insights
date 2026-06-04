@@ -154,6 +154,7 @@ ocean_radical: {
     textSecondary: '#8892b0',
     contributionLevels: ['#0a192f', '#233554', '#64ffda', '#c73e7f', '#fe428e'],
   },
+};
 
 export function getTheme(themeName: string): ThemeColors {
   return themes[themeName] || themes.github_dark;
