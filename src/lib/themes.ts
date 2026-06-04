@@ -139,6 +139,7 @@ export const themes: Record<string, ThemeColors> = {
       '#44aa44',
       '#00c875',
     ],
+  },
 
   ocean_radical: {
     background: '#0a1526', 
