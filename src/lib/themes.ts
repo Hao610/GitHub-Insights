@@ -142,7 +142,7 @@ export const themes: Record<string, ThemeColors> = {
   },
 
   ocean_radical: {
-    background: '#0a1526', 
+    background: '#0a1526',
     backgroundGradient: 'linear-gradient(135deg, #0a192f 0%, #1a1b27 50%, #0d1117 100%)',
     cardBackground: '#111827',
     border: '#fe428e',
@@ -153,12 +153,6 @@ export const themes: Record<string, ThemeColors> = {
     accent: '#fe428e',
     accentSecondary: '#64ffda',
     contributionLevels: ['#111827', '#4a154b', '#a2236a', '#fe428e', '#64ffda'],
-  },
-};
-
-export function getTheme(themeName: string): ThemeColors {
-  return themes[themeName] || themes.github_dark;
-}
   },
 };
 
