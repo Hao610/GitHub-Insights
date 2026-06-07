@@ -140,6 +140,20 @@ export const themes: Record<string, ThemeColors> = {
       '#00c875',
     ],
   },
+
+ocean_radical: {
+    background: '#050b14',
+    backgroundGradient: 'linear-gradient(135deg, #050b14 0%, #0a192f 50%, #050b14 100%)',
+    cardBackground: '#0a192f',
+    border: '#64ffda',
+    iconColor: '#57cbff',
+    title: '#fe428e',
+    accent: '#fe428e',
+    accentSecondary: '#64ffda',
+    text: '#ccd6f6',
+    textSecondary: '#8892b0',
+    contributionLevels: ['#0a192f', '#233554', '#64ffda', '#c73e7f', '#fe428e'],
+  },
 };
 
 export function getTheme(themeName: string): ThemeColors {
